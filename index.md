@@ -1,0 +1,73 @@
+---
+layout: main.njk
+title: Find a Train Station Piano
+permalink: /
+---
+
+<h1>{{title}} 🎹</h1>
+
+<search>
+    <input type="search" placeholder="Search by station name" id="search" />
+</search>
+
+<p>Showing <span id="results-count">{{stations.length}}</span> pianos.</p>
+
+<script>
+    var search = document.getElementById('search');
+    var resultsCount = document.getElementById('results-count');
+
+    search.addEventListener('keyup', function(e) {
+        var query = e.target.value.toLowerCase();
+
+        var pianos = document.querySelectorAll('.h-entry');
+
+        var count = 0;
+
+        pianos.forEach(function(piano) {
+            var name = piano.querySelector('.p-name').textContent.toLowerCase();
+            var iata = piano.querySelector('.u-url').textContent.toLowerCase();
+
+            if (name.indexOf(query) > -1 || iata.indexOf(query) > -1) {
+                piano.style.display = 'block';
+                count++;
+            } else {
+                piano.style.display = 'none';
+            }
+        });
+
+        resultsCount.textContent = count;
+    });
+</script>
+
+<ul class="h-feed">
+    {% for airport in stations %}
+    <li class="h-entry">
+        <a href="/pianos/{{airport.name}}" class="u-url p-name">{{airport.name}}</a>
+        <p>Location: {{ airport.pianoShortLocation }}. {% if airport.lastConfirmed %}Last confirmed {{ airport.lastConfirmed }}.{% endif %}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+<style>
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        background: #eee;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+</style>
+
+<h2>About the List</h2>
+
+<p>This page lists pianos that have been confirmed to be in airports around the world.</p>
+
+<p>The <i>confirmed</i> date refers to the last time the piano was seen by a community member.</p>
+
+<p>The data for this page is available as a <a href="https://trainstationpianos.org/_data/airports.json">JSON file</a>.</p>
+
+<p>For more train station pianos, check out <a href="https://pianos.pub">pianos.pub</a> and search for your local airport.</p>

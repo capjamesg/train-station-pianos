@@ -1,0 +1,27 @@
+[    {
+        "name": "Brighton",
+        "city": "Brighton",
+        "state": "England",
+        "country": "United Kingdom",
+        "lat": "50.8289",
+        "long": "0.1410",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Near the gates",
+        "lastConfirmed": "2024",
+        "description": "Brighton train station has a piano near the ticket gates. The piano is locked in the morning. The piano is not in a good condition, but is playable."
+    },
+    {
+        "name": "Edinburgh Waverley",
+        "city": "Edinburgh",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "lat": "55.9524",
+        "long": "3.1883",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Near platform 2",
+        "lastConfirmed": "2024",
+        "description": "Edinburgh Waverley train station has a piano near platform 2. The piano is playable at any time of day."
+    }
+]
