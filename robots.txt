@@ -4,4 +4,4 @@ Allow: /
 User-Agent: GPTBot
 Disallow: /
 
-Sitemap: https://airportpianos.org/sitemap.xml
+Sitemap: https://trainstationpianos.org/sitemap.xml
