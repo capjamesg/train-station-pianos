@@ -1,4 +1,16 @@
 [    {
+        "name": "Niagra Falls",
+        "city": "Niagra",
+        "state": "Ontario",
+        "country": "Canada",
+        "lat": "43.1088",
+        "long": "79.0634",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "VIA Rail (CA) has a piano in the Niagra Falls, ON station as of February 2023",
+        "lastConfirmed": "2024",
+        "description": "VIA Rail (CA) has a piano in the Niagra Falls, ON station as of February 2023"
+    },{
         "name": "Glasgow Queen Street",
         "city": "Glasgow",
         "state": "Scotland",
