@@ -1,4 +1,16 @@
 [    {
+        "name": "Glasgow Queen Street",
+        "city": "Glasgow",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "lat": "55.8625",
+        "long": "4.2512",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "No location provided.",
+        "lastConfirmed": "2024",
+        "description": "Glasgow Queen Street has a piano, but no location within the station has been provided. If you see the piano, let us know so we can update this website!"
+    },{
         "name": "Brighton",
         "city": "Brighton",
         "state": "England",
