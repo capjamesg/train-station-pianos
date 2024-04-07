@@ -1,5 +1,18 @@
 [    
         {
+        "name": "Takanawa Gateway Station",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "lat": "35.63558171083573",
+        "long": "139.740691625168",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Takanawa Gateway Station has a piano",
+        "lastConfirmed": "April 2024",
+        "description": "Takanawa Gateway Station has a piano",
+        },
+        {
         "name": "Lewisham",
         "city": "Lewisham",
         "state": "London",
@@ -8,7 +21,7 @@
         "long": "0.0133",
         "zoom": "12",
         "hasPiano": "true",
-        "pianoShortLocation": "ALewisham train station has a piano",
+        "pianoShortLocation": "Lewisham train station has a piano",
         "lastConfirmed": "April 2024",
         "description": "Lewisham train station has a piano.",
         },
