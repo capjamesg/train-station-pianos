@@ -1,5 +1,18 @@
 [    
         {
+        "name": "Pearse Station",
+        "city": "Dublin",
+        "state": "Republic of Ireland",
+        "country": "Republic of Ireland",
+        "lat": "53.34332545264078",
+        "long": "-6.247987337793855",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Pearse Station has a piano",
+        "lastConfirmed": "April 2024",
+        "description": "Pearse Station has a piano"
+        },
+        {
         "name": "New Street Station, Birmingham",
         "city": "Birmingham",
         "state": "England",
