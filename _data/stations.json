@@ -1,5 +1,18 @@
 [    
         {
+        "name": "Lewisham",
+        "city": "Lewisham",
+        "state": "London",
+        "country": "United Kingdom",
+        "lat": "51.4654",
+        "long": "0.0133",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "ALewisham train station has a piano",
+        "lastConfirmed": "April 2024",
+        "description": "Lewisham train station has a piano.",
+        },
+        {
         "name": "Abbey Wood",
         "city": "London",
         "state": "London",
