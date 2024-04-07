@@ -10,7 +10,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Takanawa Gateway Station has a piano",
         "lastConfirmed": "April 2024",
-        "description": "Takanawa Gateway Station has a piano",
+        "description": "Takanawa Gateway Station has a piano"
         },
         {
         "name": "Lewisham",
@@ -23,7 +23,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Lewisham train station has a piano",
         "lastConfirmed": "April 2024",
-        "description": "Lewisham train station has a piano.",
+        "description": "Lewisham train station has a piano."
         },
         {
         "name": "Abbey Wood",
@@ -36,7 +36,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Abbey Wood train station has a piano",
         "lastConfirmed": "April 2024",
-        "description": "Abbey Wood train station has a piano. The piano is sometimes up in the main station, other times at the Lizzie Line exit.",
+        "description": "Abbey Wood train station has a piano. The piano is sometimes up in the main station, other times at the Lizzie Line exit."
         },
         {
         "name": "Wuppertal Hauptbahnhof",
