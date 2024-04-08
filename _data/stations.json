@@ -1,5 +1,31 @@
 [    
         {
+        "name": "Prague Main Railway Station",
+        "city": "Prague",
+        "state": "Prague",
+        "country": "Czechia",
+        "lat": "50.0832",
+        "long": "14.4353",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Prague Main Railway Station has a piano",
+        "lastConfirmed": "April 2024",
+        "description": "Prague Main Railway Station has a piano, but it may move around within the station and/or only be available temporarily."
+        },
+        {
+        "name": "London St. Pancras",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "lat": "51.5311",
+        "long": "0.1259",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "London St. Pancras has the Sir Elton John piano.",
+        "lastConfirmed": "April 2024",
+        "description": "London St. Pancras has the Sir Elton John piano, donated to the station by Sir Elton John. See https://stpancras.com/news-events/sir-elton-john-s-piano for more information."
+        },
+        {
         "name": "Pearse Station",
         "city": "Dublin",
         "state": "Republic of Ireland",
