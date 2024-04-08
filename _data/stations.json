@@ -1,5 +1,18 @@
 [    
         {
+        "name": "Gare de Lyon",
+        "city": "Paris",
+        "state": "Paris",
+        "country": "France",
+        "lat": "48.8443",
+        "long": "2.3744",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Gare de Lyon has a piano",
+        "lastConfirmed": "April 2024",
+        "description": "Gare de Lyon has a piano, reportedly in Hall 2."
+        },
+        {
         "name": "Prague Main Railway Station",
         "city": "Prague",
         "state": "Prague",
