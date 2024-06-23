@@ -1,9 +1,10 @@
 ---
 layout: main
 title: About Train Station Pianos
+permalink: /about/
 ---
 
-<h1 id="-title-">{{page.title}} 🎹</h1>
+<h1 id="-title-">About 🎹</h1>
 
 <p><em>trainstationpianos.org</em> is a site that lists the location of train station pianos.</p>
 <p>This project is the sister site of <a href="https://airportpianos.org">airportpianos.org</a>, which lists the location of airport pianos.</p>
